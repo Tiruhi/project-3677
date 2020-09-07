@@ -1,0 +1,24 @@
+form.form-inline .btn-outline-success {
+  border-color: #141518;
+  background-color: #141518;
+}
+form.form-inline .form-control {
+  background-color: #141518;
+  min-width: 364px;
+  max-width: 664px;
+  box-shadow: 0 0 6px #4B37FF33;
+  border-radius: 10px;
+  color: #4B37FF;
+}
+
+.search-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(75, 55, 255, 0.5);
+}
+.search-btn:not(:disabled):not(.disabled).active, .search-btn:not(:disabled):not(.disabled):active,
+.search-btn .show > .btn-outline-success.dropdown-toggle {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/*# sourceMappingURL=bootstrapNavbar.css.map */
