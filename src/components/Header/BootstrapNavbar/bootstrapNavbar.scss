@@ -10,10 +10,13 @@ form {
       background-color: #141518;
       min-width: 364px;
       max-width: 664px;
-
-      box-shadow: 0 0 6px #4B37FF33;
+      /* box-shadow: 0 0 6px #4B37FF33; */
       border-radius: 10px;
       color: #4B37FF;
+      border-color: #141518;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      margin-left: 0;
 
     }
   }

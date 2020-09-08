@@ -1,0 +1,66 @@
+.user-content {
+
+  .avatar-icon {
+    width: 84px !important;
+    height: 84px !important;
+  }
+
+  .MuiAvatar-root {
+    width: 84px;
+    height: 84px;
+  }
+
+  .user-info {
+
+    .info-name {
+      text-align: left;
+      font: normal normal medium 24px/28px Rubik;
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+      font-size: 24px;
+      margin-top: 24px;
+    }
+
+    .info-link {
+
+      text-align: left;
+      font: normal normal 300 16px/19px Rubik;
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+      font-size: 16px;
+      margin-bottom: 23px;
+      margin-top: 16px;
+
+    }
+  }
+
+  .user-followers,
+  .image-following {
+
+    font: normal normal medium 24px/28px Rubik;
+    letter-spacing: 0;
+    opacity: 1;
+    width: 316px;
+    height: 51px;
+    background: #141518 0% 0% no-repeat padding-box;
+    margin-bottom: 13px;
+    /* margin: auto; */
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+    a {
+      color: #54C7FC;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+

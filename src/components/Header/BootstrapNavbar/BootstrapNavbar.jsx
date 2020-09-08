@@ -25,10 +25,9 @@ class BootstrapNavbar extends React.Component {
     render() {
         return (
             <div>
-                <div className="row justify-content-between">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-9">
-                        <Router>
+                <div className="row">
+                    <div className="col-12 offset-md-3 col-md-9">
+
                             <Navbar variant="dark" expand="lg" sticky="top">
                                 {/*<Navbar.Brand href="#home">React Bootstrap Navbar</Navbar.Brand>*/}
                                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -61,19 +60,8 @@ class BootstrapNavbar extends React.Component {
 
                                 </Navbar.Collapse>
                             </Navbar>
-                            <br/>
-                            <Switch>
-                                <Route exact path="/">
-                                    {/*<Home />*/}
-                                </Route>
-                                <Route path="/about-us">
-                                    {/*<AboutUs />*/}
-                                </Route>
-                                <Route path="/contact-us">
-                                    {/*<ContactUs />*/}
-                                </Route>
-                            </Switch>
-                        </Router>
+
+
                     </div>
                 </div>
             </div>
