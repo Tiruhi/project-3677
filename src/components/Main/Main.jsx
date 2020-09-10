@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import './main.scss';
 import UserInfo from "./UserInfo/UserInfo";
 import PostContent from "./PostContent/PostContent";
-import Suggestion from "./Suggestions/Suggestions";
+import Suggestions from "./Suggestions/Suggestions";
 
 class Main extends Component {
   render() {
@@ -18,7 +18,7 @@ class Main extends Component {
                     <PostContent/>
                 </div>
                 <div className="col-12 col-md-3">
-                    <Suggestion/>
+                    <Suggestions />
                 </div>
 
             </div>

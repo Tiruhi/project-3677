@@ -1,9 +1,12 @@
 import React from "react";
 import './PostContent.scss';
+import SinglePost from "./SinglePost/SinglePost";
 
 const PostContent = () => {
     return (
-        <div className="post-container">
+        <div className="posts-container">
+
+            <SinglePost/>
 
         </div>
     )

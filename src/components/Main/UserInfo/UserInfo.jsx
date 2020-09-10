@@ -4,6 +4,7 @@ import Avatar from '@material-ui/core/Avatar';
 import UserAvatar from '../../../assets/imgs/icons/menuIcons/user-icon-@2x.png';
 import {Link} from 'react-router-dom';
 
+
 const UserInfo = () => {
     return (
         <div className="user-content">

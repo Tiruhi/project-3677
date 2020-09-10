@@ -14,10 +14,8 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App ">
-
                 <div className="container">
                     <Switch>
-
 
                         <Route path="/" >
                             <Header/>
@@ -29,7 +27,6 @@ function App() {
 
             </div>
         </BrowserRouter>
-
 
     );
 }
