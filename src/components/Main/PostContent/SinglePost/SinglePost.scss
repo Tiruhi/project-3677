@@ -1,21 +1,76 @@
 // Post Container
 
 .post-container {
+
+  .post-info {
+    .post-nik {
+
+    }
+  }
+
   .postImg {
     max-width: 100%;
     opacity: 1;
   }
-  .avatar-icon {
-    width: 60px;
-    height: 60px;
+
+  .post-avatar-wrap {
+    border-radius: 32px;
+    margin-right: 16px;
+
+    .avatar-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+    }
   }
+
   .post-text {
     text-align: left;
     font: normal normal 300 16px Lato;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
-  } 
+  }
+
+  .post-settings {
+    width: 24px;
+    height: 24px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .post-footer {
+    .footer-save, .footer-buttons {
+      .post-action {
+        a {
+          text-align: left;
+          font: normal normal 300 16px/19px Rubik;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+
+          img {
+            margin-right: 14px;
+          }
+
+          margin-right: 35px;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .footer-save, {
+      a {
+        margin-right: 0;
+      }
+    }
+
+  }
 }
 
 

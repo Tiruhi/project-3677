@@ -3,14 +3,11 @@
   .avatar-icon {
     width: 84px !important;
     height: 84px !important;
-  }
-
-  .MuiAvatar-root {
-    width: 84px;
-    height: 84px;
+    border-radius: 42px
   }
 
   .user-info {
+    margin-bottom: 23px;
 
     .info-name {
       text-align: left;
@@ -30,7 +27,6 @@
       color: #FFFFFF;
       opacity: 1;
       font-size: 16px;
-      margin-bottom: 23px;
       margin-top: 16px;
 
     }

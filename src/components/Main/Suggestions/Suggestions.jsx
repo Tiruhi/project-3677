@@ -1,7 +1,7 @@
 import React from "react";
-import './Suggestions.sass';
+import './Suggestions.scss';
 import Suggestion from "./Suggestion/Suggestion";
-import userImg1 from './../../../assets/imgs/suggestions/user-1.png'
+// import userImg1 from './../../../assets/imgs/suggestions/user-1.png'
 
 const suggestion = {
     name: "Name Surname",

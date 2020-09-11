@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './header.scss';
-import { Button } from '@material-ui/core';
-import BootstrapNavbar from "./BootstrapNavbar/BootstrapNavbar";
+import Navbar from "./Navbar/Navbar";
 
 class Header extends Component {
     render() {
@@ -12,7 +11,7 @@ class Header extends Component {
 
                 {/*Search form */}
 
-                <BootstrapNavbar />
+                <Navbar />
 
                 {/*Search form */}
 
