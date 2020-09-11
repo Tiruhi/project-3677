@@ -5,3 +5,45 @@ body {
 .app-wrapper {
     max-width: 1360px;
 }
+
+
+.dark-card {
+    background: #141518 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #61616129;
+    opacity: 1;
+}
+
+.dark-blue {
+    color: #54C7FC;
+}
+
+
+/* Font  */
+
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;    
+}
+
+.font-20 {
+    font-size: 20px;    
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}

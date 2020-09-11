@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import './header.scss';
-import {Button} from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import BootstrapNavbar from "./BootstrapNavbar/BootstrapNavbar";
 
 class Header extends Component {

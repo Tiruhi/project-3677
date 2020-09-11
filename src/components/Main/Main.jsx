@@ -1,30 +1,29 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import './main.scss';
 import UserInfo from "./UserInfo/UserInfo";
 import PostContent from "./PostContent/PostContent";
 import Suggestions from "./Suggestions/Suggestions";
 
 class Main extends Component {
-  render() {
+    render() {
 
-    return (
+        return (
 
-        <main className="main-container mt-5">
-            <div className="row">
-                <div className="col-12 col-md-3">
-                    <UserInfo/>
+            <main className="main-container mt-5">
+                <div className="row">
+                    <div className="col-12 col-md-3">
+                        <UserInfo />
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <PostContent />
+                    </div>
+                    <div className="col-12 col-md-3">
+                        <Suggestions />
+                    </div>
                 </div>
-                <div className="col-12 col-md-6">
-                    <PostContent/>
-                </div>
-                <div className="col-12 col-md-3">
-                    <Suggestions />
-                </div>
-
-            </div>
-        </main>
-    )
-  }
+            </main>
+        )
+    }
 }
 
 export default Main;

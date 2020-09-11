@@ -4,8 +4,8 @@ form.form-inline .btn-outline-success {
 }
 form.form-inline .form-control {
   background-color: #141518;
-  min-width: 364px;
-  max-width: 664px;
+  /* min-width: 364px;
+  max-width: 664px; */
   /* box-shadow: 0 0 6px #4B37FF33; */
   border-radius: 10px;
   color: #4B37FF;

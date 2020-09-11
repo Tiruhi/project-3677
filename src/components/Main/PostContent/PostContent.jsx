@@ -5,9 +5,7 @@ import SinglePost from "./SinglePost/SinglePost";
 const PostContent = () => {
     return (
         <div className="posts-container">
-
-            <SinglePost/>
-
+            <SinglePost />
         </div>
     )
 };
