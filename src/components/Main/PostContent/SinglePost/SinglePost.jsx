@@ -1,12 +1,12 @@
 import React from "react";
 import './SinglePost.scss';
 import UserAvatar from "../../../../assets/imgs/icons/menuIcons/user-icon-@2x.png";
-import MoreVertical from "../../../../assets/imgs/icons/more.svg";
 import POSTIMG1 from "../../../../assets/imgs/suggestions/postimg1.png";
-import Like from "../../../../assets/imgs/icons/postIcons/mode_comment-24px.png";
+import Like from "../../../../assets/imgs/icons/postIcons/favorite_border-24px.png";
 import Comment from "../../../../assets/imgs/icons/postIcons/mode_comment-24px.png";
-import Share from "../../../../assets/imgs/icons/postIcons/mode_comment-24px.png";
-import Save from "../../../../assets/imgs/icons/postIcons/mode_comment-24px.png";
+import Share from "../../../../assets/imgs/icons/postIcons/share-24px.png";
+import Save from "../../../../assets/imgs/icons/postIcons/bookmark-24px.png";
+import DropdownPage from "./DropDownPage/DropDownPage";
 
 
 const SinglePost = () => {
@@ -30,9 +30,11 @@ const SinglePost = () => {
                                 </div>
                             </div>
                             <div className="post-settings">
-                                <a href="#" >
-                                    <img src={MoreVertical} alt="" className=""/>
-                                </a>
+                                {/*<a href="#" >*/}
+                                {/*  */}
+                                {/*</a>*/}
+
+                                <DropdownPage />
                             </div>
                         </div>
                         <div className="d-flex flex-column">

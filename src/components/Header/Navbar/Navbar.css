@@ -22,4 +22,12 @@ form.form-inline .form-control {
   border-color: #28a745;
 }
 
+.header-nav a {
+  margin-left: 24px;
+}
+.header-nav a:hover img, .header-nav a:active img, .header-nav a:focus img {
+  -webkit-filter: hue-rotate(20deg);
+  filter: hue-rotate(20deg);
+}
+
 /*# sourceMappingURL=Navbar.css.map */

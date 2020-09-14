@@ -7,7 +7,7 @@ class Header extends Component {
 
         return (
 
-            <header className="header-container">
+            <header className="header-container mt-3">
 
                 {/*Search form */}
 

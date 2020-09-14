@@ -1,0 +1,37 @@
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+
+    color: #fff;
+  background-color: #141518;
+  border-color: #141518;
+
+  &:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #141518;
+    border-color: #141518;
+  }
+}
+
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #141518 !important;
+  border-color: #141518 !important;
+}
+
+.dropdown-toggle {
+  &:after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: none;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
+
+  }
+
+}

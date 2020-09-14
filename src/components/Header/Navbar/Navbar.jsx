@@ -9,6 +9,7 @@ import SearchBtn from "../../../assets/imgs/icons/menuIcons/search-24px.png";
 
 
 import "./Navbar.scss";
+import SearchPage from "./SearchPage/SearchPage";
 // import Home from './Home';
 // import AboutUs from './AboutUs';
 // import ContactUs from './ContactUs';
@@ -18,22 +19,33 @@ const Navbar = () => {
     return (
 
         <div className="row">
-            <div className="col-12 offset-md-3 col-md-9">
+            <div className="col-6 offset-md-3 col-md-6 w-100">
+                <SearchPage/>
+            </div>
+            <div className="col-3 col-md-3 d-flex justify-content-end align-items-center header-nav" >
+                <a href="#">
+                    <img src={HomeIcon} alt="Home"/>
+                </a>
 
-                <img src={HomeIcon} alt="Home"/>
+                <a href="#">
 
-                <img src={BellIcon} alt="Notifications"/>
+                    <img src={BellIcon} alt="Notifications"/>
+                </a>
+                <a href="#">
+                    <img src={AddIcon} alt="Add"/>
+                </a>
 
-                <img src={AddIcon} alt="Add"/>
+                <a href="#">
+                    <img src={MessageIcon} alt="Chat"/>
+                </a>
 
-                <img src={MessageIcon} alt="Chat"/>
-
-                <img src={AccountIcon} alt="Account"/>
+                <a href="#">
+                    <img src={AccountIcon} alt="Account"/>
+                </a>
 
             </div>
         </div>
     )
-
 };
 
 export default Navbar;

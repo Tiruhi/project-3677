@@ -13,7 +13,9 @@ const Suggestions = () => {
         <div className="suggestions">
             <h1 className="title">Suggestions</h1>
             {/*<Suggestion  styles={{ backgroundImage:`url(${userImg1})`/>*/}
-            <Suggestion  />
+            <Suggestion />
+            <Suggestion/>
+            <Suggestion/>
             <Suggestion/>
 
         </div>

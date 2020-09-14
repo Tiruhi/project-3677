@@ -28,7 +28,7 @@
 .post-container .post-footer .footer-save .post-action a, .post-container .post-footer .footer-buttons .post-action a {
   text-align: left;
   font: normal normal 300 16px/19px Rubik;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #FFFFFF;
   opacity: 1;
   margin-right: 35px;

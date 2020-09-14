@@ -1,0 +1,32 @@
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  background-color: #141518;
+  border-color: #141518;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #141518;
+  border-color: #141518;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #141518 !important;
+  border-color: #141518 !important;
+}
+
+.dropdown-toggle:after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: none;
+  border-right: none;
+  border-bottom: 0;
+  border-left: none;
+}
+
+/*# sourceMappingURL=dropDownPage.css.map */
